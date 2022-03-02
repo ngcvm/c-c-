@@ -1,3 +1,4 @@
 // ignore something here
 build
 .vscode
+*.dSYM
