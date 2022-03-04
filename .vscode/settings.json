@@ -20,5 +20,8 @@
         "streambuf": "cpp",
         "type_traits": "cpp",
         "typeinfo": "cpp"
-    }
+    },
+    "cSpell.words": [
+        "Ngoc"
+    ]
 }
