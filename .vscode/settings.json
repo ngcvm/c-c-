@@ -23,5 +23,6 @@
     },
     "cSpell.words": [
         "Ngoc"
-    ]
+    ],
+    "C_Cpp.errorSquiggles": "Disabled"
 }
