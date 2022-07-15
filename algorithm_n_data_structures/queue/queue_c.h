@@ -1,3 +1,6 @@
+/*
+Implement queue using array
+*/
 #pragma
 
 #include <stdio.h>

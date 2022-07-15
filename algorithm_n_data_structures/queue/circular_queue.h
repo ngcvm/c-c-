@@ -1,3 +1,7 @@
+/*
+Implement queue using array
+*/
+
 #pragma
 
 #include <iostream>
