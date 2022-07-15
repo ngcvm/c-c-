@@ -1,9 +1,10 @@
-#include "queue_cpp.h"
+// #include "queue_cpp.h"
+#include "circular_queue.h"
 #include <iostream>
 using namespace std;
 
 int main (int argc, char *argv[]) {
-    Queue *q = new Queue(5);
+    Queue *q = new Queue(10);
     q->enqueue(10);
     q->enqueue(22);
     q->enqueue(1);
@@ -15,12 +16,11 @@ int main (int argc, char *argv[]) {
     q->enqueue(23);
     q->enqueue(32);
     q->enqueue(11);
-    q->enqueue(76);
     q->enqueue(20);
     q->display();
     cout << "---Dequeue value: " << q->dequeue() << "---" << endl;
-    cout << "---Dequeue value: " << q->dequeue() << "---" << endl;
-    cout << "---Dequeue value: " << q->dequeue() << "---" << endl;
+    q->enqueue(76);
+    q->display();
     cout << "---Dequeue value: " << q->dequeue() << "---" << endl;
     cout << "---Dequeue value: " << q->dequeue() << "---" << endl;
     cout << "---Dequeue value: " << q->dequeue() << "---" << endl;

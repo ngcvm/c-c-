@@ -19,7 +19,7 @@ class Queue {
         void enqueue(int value);
         int dequeue();
         void display();
-            void destroy();
+        void destroy();
 };
 
 int Queue::is_empty() {
@@ -51,9 +51,8 @@ int Queue::dequeue() {
         cout << "---Queue is empty!---" << endl;
         return -1;
     }
-    int result = this->Q[this->front];
     this->front++;
-    return result;
+    return this->Q[this->front];
 }
 
 void Queue::display() {
