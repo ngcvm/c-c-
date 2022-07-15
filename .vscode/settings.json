@@ -22,7 +22,12 @@
         "typeinfo": "cpp",
         "chrono": "c",
         "__bit_reference": "c",
-        "algorithm": "c"
+        "algorithm": "c",
+        "stdlib.h": "c",
+        "memory_resource": "c",
+        "__functional_03": "c",
+        "functional": "c",
+        "memory": "c"
     },
     "cSpell.words": [
         "Ngoc"
